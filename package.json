@@ -26,7 +26,6 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-fast-openpgp-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -39,7 +38,7 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/jerson/react-native-fast-openpgp",
+  "repository": "https://github.com/calceytechnologies/react-native-fast-openpgp",
   "author": "Gerson Alexander Pardo Gamez <jeral17@gmail.com> (https://github.com/jerson)",
   "license": "MIT",
   "bugs": {
@@ -79,9 +78,6 @@
     "react": "*",
     "react-native": "*"
   },
-  "workspaces": [
-    "example"
-  ],
   "packageManager": "yarn@3.6.1",
   "engines": {
     "node": ">= 18.0.0"
